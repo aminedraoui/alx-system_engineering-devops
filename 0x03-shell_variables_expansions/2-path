@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((`echo $PATH | grep -o ":/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/action" | wc -l`+ 1))
+export PATH=$PATH:/action
